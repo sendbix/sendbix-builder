@@ -6,7 +6,7 @@
   "author": "sendbix",
   "repository": {
     "type": "git",
-    "url": "git@github.com:sendbix/sendbix-builder.git"
+    "url": "git@github.com:sendbix/sendbix-addons.git"
   },
   "keywords": [
     "email template builder"
