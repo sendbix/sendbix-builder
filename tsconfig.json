@@ -1,0 +1,34 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "lib": ["DOM", "DOM.Iterable", "ESNext"],
+    "types": ["vite/client", "node"],
+    "allowJs": true,
+    "skipLibCheck": true,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "strict": true,
+    "noImplicitAny": true,
+    "strictNullChecks": true,
+    "alwaysStrict": false,
+    "forceConsistentCasingInFileNames": true,
+    "noUnusedLocals": false,
+    "module": "ESNext",
+    "moduleResolution": "Node",
+    "resolveJsonModule": true,
+    "sourceMap": true,
+    "jsx": "react",
+    "baseUrl": ".",
+    "outDir": "lib",
+    "paths": {
+      "@": ["./src"],
+      "@/*": ["./src/*"],
+      "@core": ["../sendbix-base/src"],
+      "@core/*": ["../sendbix-base/src/*"],
+      "sendbix-base": ["../sendbix-base"],
+      "react": ["./node_modules/@types/react"]
+    }
+  },
+  "include": ["./src"],
+  "exclude": ["node_modules", "src/utils/__tests__"]
+}
